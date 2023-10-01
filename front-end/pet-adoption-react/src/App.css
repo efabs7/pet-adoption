@@ -1,0 +1,93 @@
+body {
+  margin-left: 18px;
+  font-family: roboto, sans-serif;
+ 
+    margin-top: 1px;
+    background-color: var(--background-body);
+   
+  
+}
+
+input:focus {
+outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+p, h3, h2 {
+  color: var(--header-text)
+}
+
+a {
+  color: var(--header-text);
+  text-decoration: none;
+  margin-left: 4px;
+  border: var(--purple) 1px solid;
+  border-radius: 3px;
+  padding: 8px;
+ 
+}
+a:hover {
+  border-color: var(--header-text);
+  text-decoration: none;
+  opacity: 0.6;
+}
+a:active {
+  opacity: 0.4;
+}
+
+h4 {
+  color: var(--header-text)
+}
+
+img {
+  width: 200px;
+  height: 140px;
+  border-radius: 3%;
+  border: .5px solid var(--background-text);
+  margin-top: 12px;
+  box-shadow: 1px 1px var(--background-text)
+}
+
+
+.largeImg {
+  width: 540px;
+  height: 360px;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: 2px 2px var(--background-text);
+}
+.largeImgCard {
+  width: 540px;
+  height: 360px;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: 2px 2px var(--background-text);
+  align-self: flex-start
+}
+
+.mediumImg {
+  width: 300px;
+  height: 220px;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: 2px 2px var(--background-text);
+  align-self:flex-start;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  color: var(--header-text);
+  margin: 16px;
+  border-bottom: 1px var(--header-text);
+  list-style-type: none;
+}
+ /*goals: decide on styling principles aka better color themes; stick with the dark theme but research color complements and more sleek design of components*/
+
+

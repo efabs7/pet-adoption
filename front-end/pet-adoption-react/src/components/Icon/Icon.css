@@ -1,0 +1,9 @@
+.Icon {
+    font-size: 16px;
+    background-color: var(--background-body)
+
+}
+.Icon[data-clickable]:hover {
+    cursor: pointer;
+    opacity: 0.8
+}

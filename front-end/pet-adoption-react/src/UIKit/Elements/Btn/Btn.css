@@ -1,0 +1,23 @@
+.Btn {
+    border: 1px solid var(--purple);
+    color: var(--light-text);
+    background-color: var(--background-body);
+    border-radius: var(--border-radius-s);
+    padding: var(--gap-s);
+    min-width: 80px;
+    height: 40px;
+    font-size: var(--font-size-small);
+    margin: 6px;
+}
+
+
+.Btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: var(--font-size-large);
+    border-color: var(--gray-text)
+}
+
+.Btn:active {
+    opacity: 0.9;
+}

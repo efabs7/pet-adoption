@@ -1,0 +1,17 @@
+
+
+.Select {
+    background-color: var(--background-body);
+    color: var(--header-text)
+}
+
+.SelectItem {
+    background-color: var(--background-body);
+    color: var(--header-text)
+
+}
+.SelectItem:hover {
+    background-color: var(--background-text);
+    color: var(--header-text)
+
+}

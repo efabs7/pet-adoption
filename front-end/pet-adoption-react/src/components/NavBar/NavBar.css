@@ -1,0 +1,23 @@
+.NavBar {
+    height: 58px;
+    width: 98%;
+    background: var(--background-text);
+    border-radius: var(--border-radius-m);
+    border-bottom: 1px solid var(--purple);
+    color: var(--header-text);
+    margin-bottom: 20px;
+    padding-left: 30px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;   
+}
+
+
+.NavBar>children {
+    text-decoration: none;
+    margin: 6px;
+   
+
+}
+

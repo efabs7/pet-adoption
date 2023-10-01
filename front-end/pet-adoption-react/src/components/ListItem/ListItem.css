@@ -1,0 +1,17 @@
+.ListItem {
+    border: 1px solid var(--header-text);
+    padding: 8px;
+    border-radius: 2px;
+    background-color: var(--background-text);
+    margin-bottom: 6px;
+    margin-right: 24px;
+    
+
+}
+.ListItem:hover {
+    cursor: pointer;
+    opacity: .8;
+    border-color: var(--purple);
+   
+}
+

@@ -1,0 +1,12 @@
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    background-color: var(--background-color);
+    
+
+}
+.Grid>* {
+    padding: var(--gap-m);
+    display: inherit;
+}

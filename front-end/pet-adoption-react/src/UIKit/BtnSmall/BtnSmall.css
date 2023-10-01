@@ -1,0 +1,23 @@
+.BtnSmall {
+    border: 1px solid var(--purple);
+    color: var(--header-text);
+    background-color: var(--purple);
+    border-radius: var(--border-radius-s);
+    padding: 8px;
+    min-width: 80px;
+    min-height: 36px;
+    font-size: var(--font-size-small);
+    margin-left: 10px;
+}
+
+
+.BtnSmall:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: var(--font-size-large);
+    border-color: var(--header-text)
+}
+
+.BtnSmall:active {
+    opacity: 0.9;
+}

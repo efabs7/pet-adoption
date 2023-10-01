@@ -1,0 +1,15 @@
+.Input {
+    border: .5px solid var(--header-text);
+    border-radius: 1px;
+    color: var(--header-text);
+    width: 96%;
+    flex: 1;
+    padding: 10px;
+    margin-top: 4px;
+   
+    background-color: var(--background-body);
+    
+}
+.Input:hover {
+    border: .5px solid var(--purple)
+}

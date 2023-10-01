@@ -1,0 +1,10 @@
+.Box {
+    background-color: var(--background-body);
+    border: 1px solid var(--purple);
+    border-radius: 6px;
+    padding: 12px;
+    min-width: 400px;
+    margin-top: 36px;
+    box-shadow: 1px 1px 2px var(--purple-light);
+    
+}
